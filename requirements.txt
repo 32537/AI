@@ -37,7 +37,6 @@ conda-pack==0.8.1
 contourpy==1.3.1
 cryptography==45.0.7
 cycler==0.12.1
-Cython==3.0.11
 daal==2025.8.0
 dacite==1.8.1
 dash==2.18.2
@@ -342,3 +341,4 @@ zict==3.0.0
 zipp==3.21.0
 zope.event==5.0
 zope.interface==7.2
+
