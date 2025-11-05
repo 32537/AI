@@ -220,7 +220,6 @@ pynndescent==0.5.13
 PyNomaly==0.3.4
 pyod==2.0.2
 pyOpenSSL==25.2.0
-pyparsing==3.2.0
 pywin32==306
 pywinpty==2.0.14
 PyYAML==6.0.2
@@ -332,6 +331,7 @@ zict==3.0.0
 zipp==3.21.0
 zope.event==5.0
 zope.interface==7.2
+
 
 
 
