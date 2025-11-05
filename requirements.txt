@@ -222,7 +222,6 @@ pyod==2.0.2
 pyOpenSSL==25.2.0
 pyparsing==3.2.0
 PySocks==1.7.1
-pytest==7.4.4
 pywin32==306
 pywinpty==2.0.14
 PyYAML==6.0.2
@@ -334,6 +333,7 @@ zict==3.0.0
 zipp==3.21.0
 zope.event==5.0
 zope.interface==7.2
+
 
 
 
