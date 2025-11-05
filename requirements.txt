@@ -205,7 +205,6 @@ python-json-logger==3.2.1
 python-multipart==0.0.20
 python-utils==3.9.1
 pytz==2023.3
-PyWavelets==1.8.0
 pywin32==306
 pywinpty==2.0.14
 PyYAML==6.0.2
@@ -297,4 +296,5 @@ yellowbrick==1.5
 zipp==3.21.0
 zope.event==5.0
 zope.interface==7.2
+
 
