@@ -216,7 +216,6 @@ pydantic_core==2.27.2
 pydeck==0.9.1
 pydub==0.25.1
 Pygments==2.16.1
-pymrmr==0.1.11
 pynndescent==0.5.13
 PyNomaly==0.3.4
 pyod==2.0.2
@@ -342,3 +341,4 @@ zict==3.0.0
 zipp==3.21.0
 zope.event==5.0
 zope.interface==7.2
+
