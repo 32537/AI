@@ -1,25 +1,25 @@
-# %%
+
 #运行命令
 # C:/Users/32537/.conda/envs/thyroid_ML/python.exe -m streamlit run c:/Users/32537/Desktop/MLtest/Untitled-1.py
 
-# %%
+
 from pycaret.classification import *
 import streamlit as st
 import numpy as np
 import random
 
-# %%
+
 # 固定随机种子
 np.random.seed(42)
 random.seed(42)
 
-# %%
+
 
 #加载模型
 loaded_model = load_model(r'Logistic Regression') #不需要后缀
 
 
-# %%
+
 #对采集数据进行字典匹配转换为01 后期进入模型
 
 
@@ -36,7 +36,7 @@ Peri_BFS_dict = {'Absent':0, 'Less':1, 'Rich':2}
 Pathological_diagnosis_dict = {0:'Benign', 1:'Malignant'}
 
 
-# %%
+
 #构建信息输入界面
 
 #性别
@@ -136,7 +136,7 @@ ATR = st.selectbox(
 
 
 
-# %%
+
 #对采集数据进行转换处理 生成predict_data数据框
 
 import pandas as pd
@@ -155,7 +155,7 @@ predict_data = pd.DataFrame({
 
 
 
-# %%
+
 #预测
 if st.button("Predict"):
     predition = predict_model(loaded_model, data=predict_data, raw_score = True,probability_threshold=0.4821)
